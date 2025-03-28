@@ -76,10 +76,10 @@ for learning_rate in n: #iterates over n
             #Example: "Highest MLP accuracy so far: 0.90, Parameters: learning rate=0.02, shuffle=False"
             #--> add your Python code here
             if model == "Perceptron" and accuracy > highest_perceptron_accuracy:
-                print(f"Highest Perceptron accuracy so far: {accuracy:.2f}, Parameters: Learning rate = {learning_rate}, shuffle = {shuffle}")
+                print(f"Highest Perceptron accuracy so far: {accuracy:.3f}, Parameters: Learning rate = {learning_rate}, shuffle = {shuffle}")
                 highest_perceptron_accuracy = accuracy
             elif model == "MLP" and accuracy > highest_mlp_accuracy:
-                print(f"Highest MLP accuracy so far: {accuracy:.2f}, Parameters: Learning rate = {learning_rate}, shuffle = {shuffle}")
+                print(f"Highest MLP accuracy so far: {accuracy:.3f}, Parameters: Learning rate = {learning_rate}, shuffle = {shuffle}")
                 highest_mlp_accuracy = accuracy
             
 
